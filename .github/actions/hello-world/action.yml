@@ -4,7 +4,7 @@ description: "say hello with GitHub Actions"
 
 runs:
   using: "node12"
-  main: "main.js"
+  main: "dist/index.js"
 
 inputs:
   first-greeting:
